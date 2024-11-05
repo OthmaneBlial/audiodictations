@@ -1,0 +1,59 @@
+/* Reset and Base Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+  display: flex;
+  overflow: hidden;
+}
+
+:root {
+  --bg-color: #f0f2f5;
+  --text-color: #333;
+  --primary-color: #0d6efd;
+  --secondary-color: #6c757d;
+  --success-color: #198754;
+  --danger-color: #dc3545;
+  --warning-color: #ffc107;
+  --info-color: #0dcaf0;
+  --light-color: #ffffff;
+  --dark-color: #212529;
+  --highlight-color: #ffdddd;
+  --navbar-bg: #ffffff;
+  --footer-bg: #f1f1f1;
+  --modal-bg: #ffffff;
+  --modal-text: #333333;
+  --input-bg: #ffffff;
+  --input-border: #ced4da;
+  --button-hover: rgba(13, 110, 253, 0.8);
+  --transition-speed: 0.3s;
+  --sidebar-width: 250px;
+}
+
+.dark-mode {
+  --bg-color: #121212;
+  --text-color: #e0e0e0;
+  --light-color: #1e1e1e;
+  --navbar-bg: #1e1e1e;
+  --footer-bg: #1e1e1e;
+  --modal-bg: #2c2c2c;
+  --modal-text: #e0e0e0;
+  --input-bg: #3a3a3a;
+  --input-border: #555555;
+}
+
+/* Additional global styles can be added here */
